@@ -48,7 +48,7 @@ function App() {
   // fields -> campos
   // add um novo elemento
   // remove remover elemento
-  const { fields, append, remove } = useFieldArray({
+  const { fields, append } = useFieldArray({
     control,
     name: 'techs'
   })
